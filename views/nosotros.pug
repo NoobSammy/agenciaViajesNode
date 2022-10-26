@@ -1,0 +1,32 @@
+//- h1 hola
+//- p= viajes
+//- p #{viajes}
+
+extends ./layout/index
+
+block contenido
+  main.container.mt-5
+    .row
+      .col-md-5
+        img(src="img/nosotros.jpg", alt="Torre Eiffel", class="img-fluid")
+      .col-md-7
+        h1= pagina
+        blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel consequat turpis. Suspendisse sagittis ligula ut leo ornare posuere vitae sed nunc. Maecenas imperdiet eros quis blandit blandit. Vivamus rutrum nisl eu felis porta, sit amet sagittis nulla elementum. Vivamus sit amet eleifend dolor.
+        p Maecenas condimentum elit elementum, semper velit sit amet, porta risus. Integer hendrerit, orci non porttitor suscipit, nisi diam maximus magna, et cursus nulla neque at ex. Vestibulum odio elit, lacinia eu massa in, tempus egestas sem. Ut maximus rutrum suscipit. Nullam placerat nulla mi. Morbi ultrices nulla sed efficitur tempor.
+        p Proin nec sapien vel mauris fringilla iaculis nec id tortor. Etiam ullamcorper sollicitudin est at volutpat. Nam sit amet iaculis justo. Nullam ut ante blandit, vulputate leo sed, malesuada lorem. Donec volutpat finibus tincidunt. Proin vitae lacinia velit. Mauris a sapien arcu. Phasellus commodo felis sed neque dictum commodo. Cras ac lobortis ante.
+
+  .listado-iconos
+    .container.mt-5.py-5.text-center
+      .row
+        .col-md-4
+          img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+          h2.mb-4 Seguridad
+          p Phasellus commodo felis sed neque dictum commodo. Cras ac lobortis ante.
+        .col-md-4
+          img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+          h2.mb-4 Mejores destinos
+          p Phasellus commodo felis sed neque dictum commodo. Cras ac lobortis ante.
+        .col-md-4
+          img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+          h2.mb-4 Los mejores precios
+          p Phasellus commodo felis sed neque dictum commodo. Cras ac lobortis ante.
